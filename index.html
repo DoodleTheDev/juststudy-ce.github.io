@@ -109,9 +109,9 @@
       localStorage.setItem('visited', true);
       document.addEventListener("DOMContentLoaded", () => {
         const welcomeToast = bootstrap.Toast.getOrCreateInstance(document.getElementById("welcomeToast"));
-        TabCloak('JustStudy', 'assets/img/favicon.ico', 'JustStudy CE')
+        TabCloak('JustStudy', 'assets/img/favicon.ico', 'StudySite')
         localStorage.setItem("panickey", "Alt+`");
-        localStorage.setItem("Title", "JustStudy");
+        localStorage.setItem("Title", "StudySite");
         localStorage.setItem("Favi", "assets/img/favicon.ico`");
         welcomeToast.show()
       });
@@ -141,7 +141,7 @@
           </button>
           <ul class="dropdown-menu dropdown-menu-dark">
             <li><a class="dropdown-item"
-                onclick="TabCloak('JustStudy','assets/img/favicon.ico' , 'JustStudy CE' )">JustStudy CE</a></li>
+                onclick="TabCloak('JustStudy','assets/img/favicon.ico' , 'StudySite' )">StudySite</a></li>
             <li>
               <hr class="dropdown-divider">
             </li>
